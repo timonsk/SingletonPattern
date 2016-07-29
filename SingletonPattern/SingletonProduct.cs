@@ -8,7 +8,7 @@
         {
         }
 
-        private int _size { get; set; }
+        private int Size { get; set; }
 
         public static SingletonProduct Creat()
         {
@@ -22,12 +22,12 @@
 
         public void ChangeSize(int size)
         {
-            _size = size;
+            Size = size;
         }
 
         public int GetSize()
         {
-            return _size;
+            return Size;
         }
     }
 }
